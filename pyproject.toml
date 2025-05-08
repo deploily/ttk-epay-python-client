@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ttk-epay"
+version = "0.1.6"
+description = ""
+authors = ["charen bahaeddine hemmem <charenbahaeddinehemmem@gmail.com>"]
+readme = "README.md"
+
+packages = [{ include = "ttk_epay", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+requests = "^2.32.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
